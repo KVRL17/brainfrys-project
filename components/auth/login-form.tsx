@@ -125,8 +125,9 @@ export function LoginForm({ onToggleMode }: LoginFormProps) {
 
         <div className="mt-6 p-4 bg-blue-50 rounded-lg">
           <p className="text-sm font-semibold text-blue-800 mb-2">Demo Credentials:</p>
-          <p className="text-xs text-blue-700">Email: demo@brainfrys.com</p>
-          <p className="text-xs text-blue-700">Password: demo123</p>
+          <p className="text-xs text-blue-700">Email: venky200364@gmail.com</p>
+          <p className="text-xs text-blue-700">Password: 123@brainfrys</p>
+          <p className="text-sm font-semibold text-blue-800 mb-2">Sign - UP for Better Experience</p>
         </div>
       </CardContent>
     </Card>

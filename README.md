@@ -4,15 +4,15 @@ A comprehensive task management web application built specifically for students 
 
 ## 🚀 Live Demo
 
-**Demo URL:** [Your deployed app URL will go here]
+**Demo URL:** https://brainfrys-sable.vercel.app/
 
 **Test Credentials:**
-- Email: `demo@brainfrys.com`
-- Password: `demo123`
+- Email: `venky200364@gmail.com`
+- Password: `123@brainfrys`
 
 ## 📋 Project Overview
 
-This project was built as part of the application process for **BrainFrys Private Limited** - Full Stack Developer position. It demonstrates proficiency in modern web development technologies and best practices.
+This project was built as part of the application process for **BrainFrys** - Full Stack Developer position. It demonstrates proficiency in modern web development technologies and best practices.
 
 ## ✨ Features
 
@@ -120,24 +120,9 @@ CREATE TABLE tasks (
    ```bash
    npm install
    ```
-
-3. **Set up Supabase**
-   - Create a new project at [supabase.com](https://supabase.com)
-   - Go to Settings > API to get your credentials
-   - Copy the database schema from `/supabase/migrations/` (if you have migrations)
-
-4. **Configure environment variables**
-   ```bash
-   cp .env.local.example .env.local
-   ```
-   
-   Add your Supabase credentials:
-   ```env
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
 
-5. **Set up the database**
+4. **Set up the database**
    
    Execute this SQL in your Supabase SQL editor:
    ```sql
@@ -176,12 +161,12 @@ CREATE TABLE tasks (
      USING (auth.uid() = user_id);
    ```
 
-6. **Run the development server**
+5. **Run the development server**
    ```bash
    npm run dev
    ```
 
-7. **Open the application**
+6. **Open the application**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## 📊 Key Features Demonstration
@@ -210,33 +195,6 @@ CREATE TABLE tasks (
 - Filter by status, category, and priority
 - Multiple filter combinations
 - Clear all filters functionality
-
-## 🎯 Development Decisions
-
-### Why Next.js?
-- Server-side rendering for better SEO and performance
-- App Router for modern React patterns
-- Built-in TypeScript support
-- Excellent developer experience
-
-### Why Supabase?
-- Rapid development with instant APIs
-- Built-in authentication system
-- Real-time capabilities
-- PostgreSQL with full SQL support
-- Row Level Security for data protection
-
-### Why Tailwind CSS?
-- Utility-first approach for rapid styling
-- Consistent design system
-- Responsive design made easy
-- Small bundle size in production
-
-### Why shadcn/ui?
-- High-quality, accessible components
-- Customizable design system
-- TypeScript support
-- Modern React patterns
 
 ## 📈 Performance Optimizations
 
@@ -289,21 +247,6 @@ npm start
 - **Adaptive Layouts**: Flexible grids and components
 - **Performance**: Optimized for slower mobile connections
 
-## 🧪 Testing
-
-### Manual Testing Checklist
-- [ ] User registration and login
-- [ ] Task creation, editing, and deletion
-- [ ] Search and filtering functionality
-- [ ] Dashboard statistics accuracy
-- [ ] Mobile responsiveness
-- [ ] Cross-browser compatibility
-
-### Automated Testing (Future Enhancement)
-- Unit tests with Jest and React Testing Library
-- Integration tests with Cypress
-- Performance testing with Lighthouse
-
 ## 🔮 Future Enhancements
 
 ### Planned Features
@@ -327,17 +270,11 @@ npm start
 
 ## 📞 Contact Information
 
-**Developer:** [Your Name]
-**Email:** [Your Email]
-**GitHub:** [Your GitHub Profile]
-**LinkedIn:** [Your LinkedIn Profile]
+**Developer:** Karri Venkata Ramana
+**Email:** venkataramanakarri.official@gmail.com
+**GitHub:** https://github.com/KVRL17
+**LinkedIn:** https://www.linkedin.com/in/venkata-ramana-karri/
 
-## 📄 License
-
-This project is created for the BrainFrys Private Limited job application and is not intended for commercial use.
+This project is created for the BrainFrys job application and is not intended for commercial use.
 
 ---
-
-**Built with ❤️ for BrainFrys Private Limited**
-
-*Demonstrating modern web development skills with Next.js, TypeScript, Supabase, and Tailwind CSS*
