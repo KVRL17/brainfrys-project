@@ -153,7 +153,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center">
             <p className="text-gray-600">
-              © 2024 Personal Learning Planner. Built for the BrainFrys Private Limited job application.
+              © 2025 Personal Learning Planner. Built for the BrainFrys job application.
             </p>
             <p className="text-sm text-gray-500 mt-2">
               Developed with Next.js, TypeScript, Supabase, and Tailwind CSS
